@@ -4,7 +4,7 @@ from pprint import pprint
 class Euclidean:
     """
     A class containing the algorithms for number theory described
-    by Euclides in he's book "Elements".
+    by Euclides in he'x book "Elements".
     """
 
     def _gcd(self, number1: int, number2: int) -> int:
@@ -85,76 +85,44 @@ class Euclidean:
             if remainder == 0:
                 return result
 
-    def _extended(self, a: int, b: int, c: int) -> tuple | bool:
+    def _extended(self, a: int, b: int) -> tuple:
+        old_a, old_b = (a, b)
+        a, b = (abs(a), abs(b))
+
+        old_r, r = (a, b)
+        old_x, x = (1, 0)
+        old_y, y = (0, 1)
+
+        while r != 0:
+            quotient = old_r // r
+
+            (old_r, r) = (r, old_r - quotient * r)
+            (old_x, x) = (x, old_x - quotient * x)
+            (old_y, y) = (y, old_y - quotient * y)
+
+        if old_a < 0:
+            old_x *= -1
+
+        if old_b < 0:
+            old_y *= -1
+
+        return (old_x, old_y)
+
+    def extended(self, *coefficients: int):
+        pass
+
+    def solve_diophanthine(self, a: int, b: int, c: int) -> tuple:
         """
         Calculates the result of the Diophantine Equation
-        ax + by = c, where a, b and c are integers. Returns
-        a tuple of the form (x, y) or False if gcd(a, b) does
-        not divide c.
+        ax + by = gcd(a, b), where a, b and c are integers. Returns
+        a tuple of the form (x, y).
         """
-
-        a_copy = a
-        b_copy = b
-
-        a = abs(a)
-        b = abs(b)
-
         gcd = self.gcd(a, b)
         gcd_divides_c = c % gcd == 0
 
         if not gcd_divides_c:
             return False
-
-        a = a // gcd
-        b = b // gcd
-        c = c // gcd
-
-        x = "x"
-        y = "y"
-
-        largest_number = max(a, b)
-        smallest_number = min(a, b)
-
-        table = list()
-
-        gcd_steps = self._gcd_steps(a, b)
-        pprint(gcd_steps)
-
-        gcd_steps = gcd_steps[2:]
-
-        table.append([(largest_number, x, 1), (largest_number, y, 0)])
-        table.append([(smallest_number, x, 0), (smallest_number, y, 1)])
-
-        i = 0
-
-        for largest_number, quotient, smallest_number, remainder in gcd_steps:
-            first_row = table[i]
-            second_row = table[i + 1]
-
-            new_x = first_row[0][2] - second_row[0][2]
-            new_y = first_row[1][2] - second_row[1][2]
-
-            table.append([(largest_number, x, new_x), (largest_number, y, new_y)])
-
-            i += 1
-
-        last_x = table[-2][0][2] - table[-1][0][2]
-        last_y = table[-2][1][2] - table[-1][1][2]
         
-        table.append([(1, x, last_x), (1, y, last_y)])
+        a, b, c = (a // gcd, b // gcd, c // gcd)
 
-        result_x = last_x * c
-        result_y = last_y * c
-
-        pprint(table)
-
-        if a_copy < 0:
-            result_x = -result_x
-
-        if b_copy < 0:
-            result_y = -result_y
-
-        return (result_x, result_y)
-
-    def extended(self, *coefficients: int):
-        pass
+        return tuple([c * number for number in self._extended(a, b)])
