@@ -1,0 +1,41 @@
+\section{Ano 2023}
+
+\begin{enumerate}
+    \item \livro{O Mistério da Estrela}{Neil Gaiman}{280}
+    \item \livro{Os Pilares da Terra}{Ken Follet}{944}
+    \item \livro{O Homem de São Petesburgo}{Ken Follet}{398}
+    \item \livro{Gente Pobre}{Fiódor Dostoiévski}{158}
+    \item \livro{O Urso e o Rouxinol}{Katherine Arden}{357}
+    \item \livro{Crime e Castigo}{Fiódor Dostoiévski}{592}
+    \item \livro{A Apologia de Sócrates / O Banquete}{Platão}{167}
+    \item \livro{A República}{Platão}{320}
+    \item \livro{Fedro}{Platão}{248}
+    \item \livro{Um Jogador}{Fiódor Dostoiévski}{232}
+    \item \livro{A Vida Intelectual}{Padre Antonin Sertillanges}{220}
+    \item \livro{As Ideias tem Consequências}{Richard Weaver}{208}
+    \item \livro{Fédon}{Platão}{124}
+    \item \livro{Admirável Mundo Novo}{Aldous Leonard Huxley}{312}
+    \item \livro{Santo Tomás de Aquino}{G.K Chesterton}{176}
+    \item \livro{A abolição do homem}{C.S Lewis}{128}
+    \item \livro{Cartas de um diabo a seu aprendiz}{C.S Lewis}{208}
+    \item \livro{Cristianismo puro e simples}{C.S Lewis}{288}
+    \item \livro{A Apologia de Sócrates}{Platão}{80}
+    \item \livro{Hípias Maior}{Platão}{70}
+    \item \livro{Laques}{Platão}{66}
+    \item \livro{Ion}{Platão}{26}
+    \item \livro{Eutífron}{Platão}{72}
+    \item \livro{Críton}{Platão}{32}
+    \item \livro{Mênon}{Platão}{40}
+    \item \livro{Protágoras}{Platão}{60}
+    \item \livro{Górgias}{Platão}{40}
+    \item \livro{Eutidemo}{Platão}{50}
+    \item \livro{Crátilo}{Platão}{104}
+    \item \livro{Fédon}{Platão}{124}
+    \item \livro{A República}{Platão}{320}
+    \item \livro{Da Geração e da Corrupção seguido de Convite à Filosofia}{Aristóteles}{181}
+    \item \livro{Ética Protestante e o Espírito do Capitalismo}{Max Weber}{187}
+\end{enumerate}
+
+\begin{center}
+    \textbf{Total de páginas: 6812}
+\end{center}
