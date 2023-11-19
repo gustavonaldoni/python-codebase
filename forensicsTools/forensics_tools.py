@@ -1,33 +1,16 @@
+from dataclasses import dataclass
 import re
 
-FILE_PATH = "./seguranca.html"
+HTML_PATH = "./seguranca.html"
+FILE_PATH = "./ferramentasPericiaForenseComputacional.txt"
 
-def get_all_modules(file_path: str) -> list[str]:
-    with open(file_path, 'rb') as file:
-        buffer = file.read().decode("utf-8")
-
-        regex = r"""<div
-  class="item-group-condensed context_module
+@dataclass
+class Item:
+    title: str
+    link: str
     
-    
-    "
-    aria-label=".*"
-    data-workflow-state="active"
-    data-module-url=".*"
-    data-module-id=".*"
-    id="context_module_.*"
-    style=""
->"""
-
-        result = re.findall(regex, buffer)
-
-        result = [re.search(r'aria-label=".*"', r).group() for r in result]
-        result = [r[11:].replace('"', '') for r in result]
-
-        return result
-    
-def get_all_items(file_path: str) -> list[tuple[str, str]]:
-    with open(file_path, 'rb') as file:
+def get_all_items(html_path: str) -> list[Item]:
+    with open(html_path, 'rb') as file:
         buffer = file.read().decode("utf-8")
 
         regex = r"""<span class="item_name">
@@ -41,36 +24,32 @@ def get_all_items(file_path: str) -> list[tuple[str, str]]:
               .*
             </a>"""
         
-        result = re.findall(regex, buffer)
+        search_result = re.findall(regex, buffer)
 
-        titles = [re.search(r'title=".*"', r).group() for r in result]
+        titles = [re.search(r'title=".*"', r).group() for r in search_result]
         titles = [t.replace('title=', '').replace('"', '') for t in titles]
 
-        links = [re.search(r'href=".*"', r).group() for r in result]
+        links = [re.search(r'href=".*"', r).group() for r in search_result]
         links = [l.replace('href=', '').replace('"', '') for l in links]
 
-        return list(zip(titles, links))
+        result = [Item(title, link) for title, link in zip(titles, links)]
 
-def parse_html(file_path: str):
-    modules = get_all_modules(file_path)
-    items = get_all_items(file_path)
+        return result
 
-    for module in modules:
-        print(module)
+def parse_html_to_file(html_path: str, file_path: str):
+    items = get_all_items(html_path)
 
-    print()
+    with open(file_path, 'wb') as file:
+        for item in items:
+            text = f'{item.title}:\n'
+            text += f'{item.link}\n\n'
 
-    for item in items:
-        title = item[0]
-        link = item[1]
+            text = text.encode()
 
-        print(title)
-        print(link)
-
-        print()
+            file.write(text)
 
 def main():
-    parse_html(FILE_PATH)
+    parse_html_to_file(HTML_PATH, FILE_PATH)
 
 if __name__ == '__main__':
     main()

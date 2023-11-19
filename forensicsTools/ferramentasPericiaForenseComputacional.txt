@@ -1,0 +1,318 @@
+Curriculum Lattes do Professor:
+http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&amp;id=K4768695H0
+
+HashCat:
+https://hashcat.net/hashcat/
+
+Códigos de Algoritmos HASH para Uso com HashCat:
+https://hashcat.net/wiki/doku.php?id=example_hashes
+
+Exemplos de WordLists:
+https://github.com/BRDumps/wordlists
+
+Kaspersky CyberThreat Real Time:
+https://cybermap.kaspersky.com/
+
+Digital Attack Map:
+https://www.digitalattackmap.com/#anim=1&amp;color=0&amp;country=ALL&amp;list=0&amp;time=18763&amp;view=map
+
+Fortinet Threat Map:
+https://threatmap.fortiguard.com/
+
+FireEye Threat Map:
+https://threatmap.checkpoint.com/
+
+FireEye CheckPoint Threat Map:
+https://threatmap.checkpoint.com/
+
+Akamai Attack Map:
+https://www.akamai.com/internet-station/cyber-attacks
+
+DCiber Painel e Mapas de Ameaças:
+https://dciber.org/mapas-de-ameacas/
+
+CAINE:
+https://www.caine-live.net/
+
+Gentoo:
+https://www.gentoo.org/
+
+Kali:
+https://www.kali.org/
+
+Parrot:
+https://www.parrotsec.org/
+
+Tsurugi:
+https://tsurugi-linux.org/
+
+DistroSea - Distribuições Linux Online:
+https://distrosea.com/
+
+OnWorks - Distribuições Linux Online:
+https://www.onworks.net/
+
+WireShark - Monitoramento de Redes de Comunicação:
+https://www.wireshark.org/download.html
+
+TCPDump - Monitoramento de Redes de Comunicação:
+https://www.tcpdump.org/
+
+WiFiTe - Ataques a Redes de Comunicação:
+https://tools.kali.org/wireless-attacks/wifite
+
+Wigle - Serviço para Localização de Pontos de Acesso a Redes:
+https://wigle.net/
+
+Framework OSINT 01:
+https://www.advisor-bm.com/osint-tools
+
+Framework OSINT 02:
+https://osintframework.com/
+
+Framework OSINT 03:
+https://start.me/p/9Epj7a/osint
+
+Maltego:
+https://www.maltego.com/downloads/
+
+SpiderFoot:
+https://github.com/smicallef/spiderfoot
+
+Shodan Search Engine:
+https://www.shodan.io/
+
+Google Suite (GSuite):
+https://gsuite.tools/pt
+
+WayBack Machine:
+http://web.archive.org/web/sitemap
+
+Carbon Date :
+https://carbondate.cs.odu.edu/
+
+TinEye:
+https://tineye.com/
+
+Domain Tools:
+https://www.domaintools.com/
+
+MxToolBox:
+https://mxtoolbox.com/SuperTool.aspx
+
+Whats My IP:
+https://whatismyipaddress.com/
+
+MHA - Análise de Cabeçalho de E-mail:
+https://mha.azurewebsites.net/
+
+Encryptomatic - Visualizador de Arquivos de E-mal em Formato EML:
+https://www.encryptomatic.com/viewer/
+
+Black List for Websites:
+https://sistemas.procon.sp.gov.br/evitesite/list/evitesites.php
+
+Vazamento de Dados:
+https://haveibeenpwned.com/
+
+Vazamento de Senhas e E-Mails:
+https://pastebin.com/
+
+Consulta CNPJ:
+http://servicos.receita.fazenda.gov.br/Servicos/cnpjreva/Cnpjreva_Solicitacao.asp
+
+KePlaca:
+https://www.keplaca.com/
+
+Fake Person Generator:
+https://thispersondoesnotexist.com/
+
+TinEye - Engenharia Reversa para Buscas Baseadas em Imagem:
+https://tineye.com/
+
+Forensically - Análise Preliminar de Imagens e Extração de Metadados:
+https://29a.ch/photo-forensics/#forensic-magnifier
+
+ImageJ - Ferramenta para Manipulação de Imagens Matriciais:
+https://imagej.nih.gov/
+
+ImageJ - Plugins:
+https://imagej.nih.gov/ij/plugins/index.html#filters
+
+ImageJ - Demonstração de Alguns Filtros:
+https://www.youtube.com/watch?v=P1OjcHWeuew
+
+ImageJ - Tutoriais e Documentação:
+https://imagej.nih.gov/ij/docs/examples/index.html
+
+GIMP - Ferramenta para Manipulação de Imagens:
+https://www.gimp.org/
+
+ExifTool - Extração de Metadados em Imagens:
+https://exiftool.org/
+
+Sherloq - Processamento e Análise de Imagens:
+https://github.com/GuidoBartoli/sherloq
+
+FormatFactory - Conversor entre Formatos de Mídia:
+http://www.pcfreetime.com/formatfactory/
+
+Esteganografia em Imagens:
+https://stylesuxx.github.io/steganography/
+
+MediaInfo - Extração de Informações Estruturais de Arquivos de Mídia:
+https://mediaarea.net/pt/MediaInfo
+
+Belarc Advisor:
+https://www.belarc.com/products/belarc-advisor
+
+FTK Imager - Extração de Evidências e Geração de Imagens Forenses:
+https://accessdata.com/product-download/ftk-imager-version-4-5
+
+AIR - Gerador de Imagem Forense:
+https://sourceforge.net/projects/air-imager/files/air-imager/air-2.0.0/
+
+RegRipper - Análise de Registros do Sistema Operacional:
+https://github.com/keydet89/RegRipper3.0
+
+Volatility - Análise de DUMP de Memória Principal:
+https://www.volatilityfoundation.org/releases
+
+Volatility WorkBench - Análise de DUMP de Memória Principal:
+https://www.osforensics.com/tools/volatility-workbench.html
+
+IPED - Autopsy - Indexação, Processamento e Análise Forense de Evidências:
+https://github.com/sepinf-inc/IPED
+
+Autopsy - Indexação, Processamento e Análise Forense de Evidências:
+https://www.autopsy.com/download/
+
+MobilEdit Forensic Tools - Extração e Análise:
+https://www.mobiledit.com/mobiledit-forensic
+
+Oxygen Forensic Tools - Extração e Análise:
+https://www.oxygen-forensic.com/en/products/oxygen-forensic-detective
+
+Belkasoft Evidence Center - Extração e Análise:
+https://belkasoft.com/es/bat
+
+Forensic Desk Extraction Tools - Extração e Análise de Mensagens:
+https://forensicdesk.com/docs/english/overview
+
+UFED Cellebrite - Extração e Indexação:
+https://www.cellebrite.com/pt/ufed-ultimate-4/
+
+PhotoRec - Recuperação de Dados Excluídos e Data Carving:
+https://www.cgsecurity.org/wiki/TestDisk_Download
+
+ADB SDK and Tools - Modo ADB para Dispositivos Android:
+https://developer.android.com/studio/releases/platform-tools
+
+Android Debug Bridge - Developer Mode:
+https://developer.android.com/studio/command-line/adb?hl=pt-br
+
+Modo ADB for Developers:
+https://developer.android.com/studio/command-line/adb?hl=pt-br
+
+iTunes  - Modo Bridge para Apple iOS:
+https://support.apple.com/pt-br/HT210384
+
+  iOS Development Bridge (idb):
+https://fbidb.io/docs/overview/
+
+VideoPad - Ferramenta para Edição e Análise de Vídeo Digital:
+https://www.nchsoftware.com/videopad/index.html
+
+VirtualDub - Ferramenta para Manipulação de Vídeo:
+https://www.virtualdub.org/
+
+VirtualDub - CoDec Complementar:
+https://sourceforge.net/projects/x264vfw/
+
+VirtualDub - Filtros:
+https://www.virtualdub.org/virtualdub_filters.html
+
+VirtualDub - Filtro MSU para Compensação de Movimento:
+https://videoprocessing.ai/video_filters/motion-estimation.html
+
+WatchFrameByFrame:
+http://www.watchframebyframe.com/
+
+Berify:
+https://berify.com/
+
+Anilyzer:
+http://anilyzer.com/
+
+MattW Metadata:
+https://mattw.io/youtube-geofind/location
+
+MattW Location:
+https://mattw.io/youtube-geofind/location
+
+DeepWare - Detecção de Deep Fake:
+https://deepware.ai/
+
+Audacity - Ferramenta para Edição, Síntese e Análise de Áudio Digital:
+https://www.audacityteam.org/download/
+
+Praat - Ferramenta para Síntese e Análise de Áudio Digital:
+https://www.fon.hum.uva.nl/praat/
+
+WavePad - Ferramenta para Edição, Síntese e Análise de Áudio Digital:
+https://www.nch.com.au/wavepad/index.html
+
+AudioText - Transcrição Profissional de Áudio:
+https://www.audiotext.com.br/
+
+Express Scribe - Ferramenta para Transcrição de Áudio:
+https://www.nch.com.au/scribe/index.html
+
+Ferramenta HxD:
+https://mh-nexus.de/en/hxd/
+
+Ferramenta HexEditor:
+https://hexeditor.en.softonic.com/
+
+FileFormat.Info:
+https://www.fileformat.info/index.htm
+
+Ferramenta HashCalc:
+https://www.slavasoft.com/hashcalc/
+
+MD5 Hash Online:
+https://md5file.com/calculator
+
+HashMyFiles:
+https://www.nirsoft.net/utils/hash_my_files.html
+
+WinMerge:
+https://winmerge.org/downloads/?lang=pt_br
+
+Rufus:
+https://rufus.ie/pt_BR/#google_vignette
+
+Linux Bootable USB:
+https://www.kali.org/docs/usb/live-usb-install-with-windows/
+
+Investigação Digital em Fontes Abertas:
+https://www.amazon.com.br/Investiga%C3%A7%C3%A3o-Digital-em-Fontes-Abertas/dp/8574528145
+
+Perícia Forense Digital: Guia Prático com Uso do Sistema Operacional Windows:
+https://www.amazon.com.br/Per%C3%ADcia-Forense-Digital-Pr%C3%A1tico-Operacional/dp/8575227920
+
+Deep Web: Investigação no Submundo da Internet:
+https://www.amazon.com.br/Deep-Web-Investiga%C3%A7%C3%A3o-Submundo-Internet/dp/8574529370/ref=pd_lpo_3?pd_rd_i=8574529370&amp;psc=1
+
+Tratado de Computação Forense:
+https://www.amazon.com.br/Tratado-Computa%C3%A7%C3%A3o-Forense-Jesus-Antonio/dp/8576253356/ref=asc_df_8576253356/?tag=googleshopp00-20&amp;linkCode=df0&amp;hvadid=379787347388&amp;hvpos=&amp;hvnetw=g&amp;hvrand=3143330243853780134&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9101232&amp;hvtargid=pla-397665041735&amp;psc=1
+
+Perícia Digital: Da Investigação à Análise Forense:
+https://www.amazon.com.br/Per%C3%ADcia-Digital-Investiga%C3%A7%C3%A3o-An%C3%A1lise-Forense/dp/8576253704/ref=asc_df_8576253704/?tag=googleshopp00-20&amp;linkCode=df0&amp;hvadid=379765738259&amp;hvpos=&amp;hvnetw=g&amp;hvrand=3143330243853780134&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9101232&amp;hvtargid=pla-809950589249&amp;psc=1
+
+Portal do Curso de Ciência da Computação:
+https://computacao.pucpcaldas.br/
+
+Estrutura Curricular do Curso:
+https://www.pucpcaldas.br/uploads/55/curriculo5510.pdf
+
